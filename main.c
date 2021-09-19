@@ -18,8 +18,7 @@
 #define BLUE      0x04
 #define GREEN     0x08
 
-uint32_t dataFromUART;        /*Variable to handle the data received from PC*/
-//SemaphoreHandle_t LED_Color;  /*Semaphore handle*/
+uint32_t dataFromUART;        //Variable to handle the data received from PC
 
 static QueueHandle_t queue=NULL;
 
